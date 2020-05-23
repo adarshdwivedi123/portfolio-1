@@ -22,6 +22,7 @@ import { ReactComponent as LinuxSVG } from '../../assets/icons/linux.svg';
 import { ReactComponent as NodejsSVG } from '../../assets/icons/nodejs.svg';
 import { ReactComponent as ReactjsSVG } from '../../assets/icons/reactjs.svg';
 import { ReactComponent as VimSVG } from '../../assets/icons/vim.svg';
+import { ReactComponent as GAESVG } from '../../assets/icons/gae.svg';
 
 function Skills({ skillsRef }) {
   return (
@@ -98,6 +99,9 @@ function Skills({ skillsRef }) {
           </div>
           <div className={styles.ring}>
             <GCSSVG width="3em" height="3em" />
+          </div>
+          <div className={styles.ring}>
+            <GAESVG width="3em" height="3em" />
           </div>
         </div>
       </div>

@@ -96,7 +96,7 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={abviiitmalumniportal} alt="project" />
             <p className={styles.project_title}>ABV-IIITM Alumni Portal</p>
             <p className={styles.project_details}>
-              It is a MERN Stack web application on which I am currently working. It will try to
+              It is a MERN Stack web application on which I am currently working on. It will try to
               build an alumni network of my institute more efficiently.
             </p>
           </div>
@@ -321,7 +321,7 @@ function Projects({ projectsRef }) {
             <p className={styles.project_title}>Portfolio</p>
             <p className={styles.project_details}>
               It is a Reactjs web application that tries to intel you about myself and hosted on
-              Google App Engine.
+              Github Pages.
             </p>
           </div>
         </div>

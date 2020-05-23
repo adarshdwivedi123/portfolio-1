@@ -1,12 +1,14 @@
 {
   "name": "mr_priyansh",
   "version": "0.1.0",
+  "homepage": "https://mrpriyansh.github.io/mr_priyansh",
   "private": true,
   "dependencies": {
     "@sweetalert2/theme-dark": "^3.1.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -15,6 +17,8 @@
     "sweetalert2": "^9.10.13"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -28,7 +28,6 @@ function Navbar({ homeRef, aboutRef, skillsRef, projectsRef, profilesRef, contac
   return (
     <>
       <div className={open ? `${styles.open_navbar} ${styles.navbar} ` : top ? `${styles.top_navbar} ${styles.navbar}` : `${styles.navbar}`}>
-      {/* <div className={top && !open ? `${styles.top_navbar} ${styles.navbar}` : open ? `${styles.navbar}` `${styles.open_navbar}`:`${styles.navbar}`}> */}
         <nav className={styles.bar}>
           <div className={styles.wrapper}>
             <a
@@ -54,7 +53,7 @@ function Navbar({ homeRef, aboutRef, skillsRef, projectsRef, profilesRef, contac
               <span />
             </div>
           </div>
-          <div className={open ? `${styles.menu} ${styles.open_menu}` : `${styles.menu}`}>
+          <div className={open ? `${styles.menu} ${styles.open_menu}` : top ? `${styles.top_menu} ${styles.menu}` : `${styles.menu}`}>
             <div className={styles.items}>
               <a
                 onClick={() => {

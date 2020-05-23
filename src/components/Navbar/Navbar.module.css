@@ -8,6 +8,7 @@
     transition: background-color 2s ease-in-out;
 }
 
+
 .top_navbar{
     background-color: #000;
 }
@@ -38,9 +39,14 @@
     cursor: pointer;
 }
 
+
+.name:hover{
+    color: #002c5d;
+}
+/* 
 .top_name{
     color: #fff;
-}
+} */
 
 .hamburger_button{
     width: 2em;
@@ -55,6 +61,7 @@
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
+    z-index: 10;
 }
 
 
@@ -77,9 +84,10 @@
     transition: .45s ease-in-out;  
 }
 
+/* 
 .top_hamburger_button > span{
     background: #FFF;
-}
+} */
 
 .hamburger_button > span:nth-child(1){
     top:0;
@@ -121,21 +129,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* z-index: -5; */
-    /* opacity: 0; */
-    /* visibility: hidden; */
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-    /* transition: top 2s ease-in-out; */
     position: absolute;
     top: 60px;
     background-color: #fff;
     left: 0;
     padding: 0 7%;
-    /* display: none; */    
-    transition:transform 1s ease-in-out;
-
+    transition: visibility 0s ease-in-out, opacity 0.5s ease-in-out, background-color 2s ease-in-out,transform 1s ease-in-out;
     transform: translateY(-150%);
-
 }
 
 .open_menu{
@@ -161,7 +161,7 @@
 .items a:hover{
     color: #002c5d;
 }
-
+/* 
 .items a:before{
     content: "";
     width: 100%;
@@ -169,7 +169,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #FFF;
+    background-color: #0078ff;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
@@ -178,20 +178,34 @@
 .items a:hover:before{
     visibility: visible;
   transform: scaleX(1);
+} */
+
+@media (min-width: 786px ){
+    .bar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hamburger_button{
+        display: none;
+    }
+    .wrapper{
+        width: 9em;
+    }
+    .menu{
+        width: calc(100% - 20vw);
+        height: 60px;
+        top:0px;
+        transform: translateY(0%);
+        flex-direction: row;
+        position: relative;
+        justify-content: space-between;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .top_menu{
+        background-color: #000;
+    }
 }
 
-
-/* 
-.menu{
-    width: 100%;
-    height: max-content;
-    position: absolute;
-    display: block;
-    top:60px;
-    left: 0;
-    padding: 0px 7%;
-    z-index: 1;
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-} */
