@@ -23,6 +23,7 @@ import { ReactComponent as NodejsSVG } from '../../assets/icons/nodejs.svg';
 import { ReactComponent as ReactjsSVG } from '../../assets/icons/reactjs.svg';
 import { ReactComponent as VimSVG } from '../../assets/icons/vim.svg';
 import { ReactComponent as GAESVG } from '../../assets/icons/gae.svg';
+import { ReactComponent as GCBSVG } from '../../assets/icons/cloud_build.svg';
 
 function Skills({ skillsRef }) {
   return (
@@ -97,12 +98,15 @@ function Skills({ skillsRef }) {
           <div className={styles.ring}>
             <GCESVG width="3em" height="3em" />
           </div>
-          <div className={styles.ring}>
+          {/* <div className={styles.ring}>
             <GCSSVG width="3em" height="3em" />
-          </div>
+          </div> */}
           <div className={styles.ring}>
             <GAESVG width="3em" height="3em" />
           </div>
+          {/* <div className={styles.ring}>
+            <GCBSVG width="3em" height="3em" />
+          </div> */}
         </div>
       </div>
     </div>
