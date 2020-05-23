@@ -77,19 +77,21 @@
 .content{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .ring{
     border: 10px solid #0078ff;
     background: #fff;
     border-radius: 50%;
-    flex: 0 1 100px;
     display: flex;
+    /* height: calc(80px - 1em); */
+    flex: 0 1 calc(80px - 1em);
     align-items: center;
-    justify-content: center;
-    padding: 1em;
-    margin: 1em 0;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    margin: 0.5em ;
     cursor: pointer;
 }
 
@@ -98,8 +100,23 @@
     background: #0078ff;
 }
 
+@media (min-width: 360px){
+    .ring{
+        font-size: 1.3em;
+    }
+}
+
 @media (min-width: 480px){
     .contact{
         width: 90%;
+    }
+    .ring{
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 786px){
+    .ring{
+        font-size: 2em;
     }
 }

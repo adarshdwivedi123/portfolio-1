@@ -23,7 +23,7 @@ function Contact({ contactRef }) {
           <div className={styles.content}>
             <a href="tel:+919452685369">
               <div className={styles.ring}>
-                <CallSVG width="3em" height="3em" />
+                <CallSVG width="1.2em" height="1.2em" />
               </div>
             </a>
             <a
@@ -32,12 +32,12 @@ function Contact({ contactRef }) {
               rel="noopener noreferrer"
             >
               <div className={styles.ring}>
-                <GmailSVG width="3em" height="3em" />
+                <GmailSVG width="1.2em" height="1.2em" />
               </div>
             </a>
             <a href="https://wa.me/+919452685369/">
               <div className={styles.ring}>
-                <WhatsappSVG width="3em" height="3em" />
+                <WhatsappSVG width="1.2em" height="1.2em" />
               </div>
             </a>
             {/* <p className={styles.text}>
@@ -48,14 +48,14 @@ function Contact({ contactRef }) {
             </p>
             <div className={styles.icons}>
               <a href="tel:+919452685369">
-                <CallSVG width="1.5em" height="1.5em" fill="#0078ff" />
+                <CallSVG width="1.2em" height="1.2em" fill="#0078ff" />
               </a>
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gaharana98@gmail.com">
-                <GmailSVG width="1.5em" height="1.5em" />
+                <GmailSVG width="1.2em" height="1.2em" />
               </a>
               <a href="https://wa.me/+919452685369/">
                 {' '}
-                <WhatsappSVG width="1.5em" height="1.5em" />
+                <WhatsappSVG width="1.2em" height="1.2em" />
               </a>
             </div> */}
           </div>
