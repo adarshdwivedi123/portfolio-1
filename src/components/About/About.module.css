@@ -1,0 +1,141 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans' sans-serif;
+    padding: max(10px, 5vh) 7%;
+    top:60px;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow:  5px 5px 10px #000000;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    width: 10em;
+    height: 10em;   
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.details{
+    margin-top: 0.5em;
+}
+
+.details div{
+    /* width: 100%; */
+    display: flex;
+    margin: 0.25em 0;
+}
+
+.title{
+    width: 4em;
+    font-weight: 700;  
+}
+
+.field{
+    /* width: 16em; */
+    font-weight: 500;
+    font-style: italic;
+}
+
+.field a{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.about_me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+}
+
+.heading{
+    font-size: 2em;
+    font-weight: 700;
+    color: #0078ff;
+    text-decoration: underline;
+    margin-bottom: 0.25em;
+}
+
+.about_me_details{
+    font-size: 1.2em;
+}
+
+@media (min-width: 480px ){
+    .about{
+        width: 90%;
+    }
+    
+    .about_me{
+        display: flex;
+        align-items: center;
+    }
+    
+    .about_me_details{
+        text-align: justify;
+        width: 80%;
+    }
+    /* .container{
+        flex-direction: row;
+        align-items: flex-start;
+    } */
+/* 
+    .about_me{
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_me_details{
+        text-align: justify;
+        width: 70%;
+    } */
+
+}
+
+@media (min-width: 786px ){
+
+
+    .about{
+        width: 90%;
+    }
+
+    .container{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .heading{
+        font-size: 3em;
+    }
+
+    .about_me{
+        display: flex;
+        align-items: center;
+    }
+    
+    .about_me_details{
+        text-align: justify;
+        width: 80%;
+    }
+}

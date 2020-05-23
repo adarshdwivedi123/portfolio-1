@@ -1,0 +1,4 @@
+.swal2-popup.popup-class{
+    display: flex;
+    flex-direction: column;
+}
