@@ -43,10 +43,10 @@
 .name:hover{
     color: #002c5d;
 }
-/* 
-.top_name{
+
+.top_name:hover{
     color: #fff;
-} */
+}
 
 .hamburger_button{
     width: 2em;
@@ -161,6 +161,8 @@
 .items a:hover{
     color: #002c5d;
 }
+
+
 /* 
 .items a:before{
     content: "";
@@ -206,6 +208,9 @@
 
     .top_menu{
         background-color: #000;
+    }
+    .top_menu .items a:hover{
+        color: #fff;
     }
 }
 

@@ -26,7 +26,11 @@ function Contact({ contactRef }) {
                 <CallSVG width="3em" height="3em" />
               </div>
             </a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gaharana98@gmail.com">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=gaharana98@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={styles.ring}>
                 <GmailSVG width="3em" height="3em" />
               </div>

@@ -305,7 +305,11 @@ function Projects({ projectsRef }) {
           <div className={styles.card}>
             <div className={styles.links}>
               <div className={styles.icons}>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://mrpriyansh.github.io/mr_priyansh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <WebsiteSVG width="1.5em" height="1.5em" />
                 </a>
                 <a
