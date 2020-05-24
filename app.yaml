@@ -1,7 +1,7 @@
 runtime: nodejs10
 
 #service
-service: mr_priyansh
+service: mrpriyansh
 #handlers
 handlers:
   - url: /static/js/(.*)
