@@ -312,7 +312,7 @@ function Projects({ projectsRef }) {
                   <WebsiteSVG width="1.5em" height="1.5em" />
                 </a>
                 <a
-                  href="https://github.com/mrpriyansh/mr_priyansh"
+                  href="https://github.com/mrpriyansh/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -323,8 +323,7 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={portfolio} alt="project" />
             <p className={styles.project_title}>Portfolio</p>
             <p className={styles.project_details}>
-              A web site built using React.Js showcasing my skills and projects, hosted on Google
-              App Engine.
+              A web site built using React.Js showcasing my skills and projects, hosted on Github Pages.
             </p>
           </div>
         </div>

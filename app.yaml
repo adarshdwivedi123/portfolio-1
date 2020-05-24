@@ -4,10 +4,10 @@ runtime: nodejs10
 service: portfolio
 #handlers
 handlers:
-  - url: /static/js/(.*)
+  - url: /mr_priyansh/static/js/(.*)
     static_files: build/static/js/\1
     upload: build/static/js/(.*)
-  - url: /static/css/(.*)
+  - url: /mr_priyansh/static/css/(.*)
     static_files: build/static/css/\1
     upload: build/static/css/(.*)
   - url: /static/media/(.*)
