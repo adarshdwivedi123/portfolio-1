@@ -6,7 +6,7 @@ function Home({ homeRef }) {
   const strings = [
     'IIITian',
     'Full-Stack Developer',
-    'Competitive Progammer',
+    'Competitive Programmer',
     'ICPC Regionalist',
     'Rotaractor',
   ];
