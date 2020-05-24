@@ -44,8 +44,8 @@ function About({ aboutRef }) {
         <div className={styles.about_me}>
           <p className={styles.heading}>About Me</p>
           <p className={styles.about_me_details}>
-            I am Priyansh, studying in IIIT Gwalior. A Competetive Programmer and trying my hands on
-            Web Development stuff. Ready for future opportunities.
+            I am Priyansh, studying at IIITM Gwalior. A Competitive Programmer and trying my hands
+            on Web Development stuff. Ready for future opportunities.
           </p>
         </div>
       </div>

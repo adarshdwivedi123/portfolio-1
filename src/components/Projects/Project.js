@@ -23,7 +23,7 @@ function Projects({ projectsRef }) {
     triggerAlert({
       icon: 'info',
       title: ' Cannot share due to privacy concerns!',
-      text: 'Will be deploy soon!',
+      text: 'Will be live soon!',
     });
   };
   const handleprivategit = () => {
@@ -63,8 +63,7 @@ function Projects({ projectsRef }) {
             <p className={styles.project_details}>
               The International Collegiate Programming Contest is an algorithmic programming contest
               for college students that occurs every year. It is a team contest. My team was
-              qualified for regionals from two regions when we were sophomores. Unfortunately, We
-              failed last year, but surely we will try this year.
+              qualified for regionals from two regions when we were sophomores.
             </p>
           </div>
           <div className={styles.card}>
@@ -324,8 +323,8 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={portfolio} alt="project" />
             <p className={styles.project_title}>Portfolio</p>
             <p className={styles.project_details}>
-              It is a Reactjs web application that tries to intel you about myself and hosted on
-              Github Pages.
+              A web site built using React.Js showcasing my skills and projects, hosted on Google
+              App Engine.
             </p>
           </div>
         </div>

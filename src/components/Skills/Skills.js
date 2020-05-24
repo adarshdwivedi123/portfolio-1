@@ -34,75 +34,96 @@ function Skills({ skillsRef }) {
         <div className={styles.content}>
           <div className={styles.ring}>
             <ReactjsSVG width="3em" height="3em" />
+            <span> ReactJs</span>
           </div>
           <div className={styles.ring}>
             <JSSVG width="3em" height="3em" />
+            <span> Javascript</span>
           </div>
           <div className={styles.ring}>
             <NodejsSVG width="3em" height="3em" />
+            <span> Node.js</span>
           </div>
           <div className={styles.ring}>
             <ExpressSVG width="3em" height="3em" />
+            <span> Express</span>
           </div>
           <div className={styles.ring}>
             <MongodbSVG width="3em" height="3em" />
+            <span> MongoDB</span>
           </div>
           <div className={styles.ring}>
             <HTMLSVG width="3em" height="3em" />
+            <span> HTML</span>
           </div>
           <div className={styles.ring}>
             <CSSSVG width="3em" height="3em" />
+            <span> CSS</span>
           </div>
           <div className={styles.ring}>
             <PostgresqlSVG width="3em" height="3em" />
+            <span> PostregSQL</span>
           </div>
           <div className={styles.ring}>
             <CppSVG width="3em" height="3em" />
+            <span> C++</span>
           </div>
           <div className={styles.ring}>
             <CSVG width="3em" height="3em" />
+            <span> C</span>
           </div>
           <div className={styles.ring}>
             <VimSVG width="3em" height="3em" />
+            <span> Vim</span>
           </div>
           <div className={styles.ring}>
             <LinuxSVG width="3em" height="3em" />
+            <span> Linux</span>
           </div>
           <div className={styles.ring}>
             <GitSVG width="3em" height="3em" />
+            <span> GitHub</span>
           </div>
           <div className={styles.ring}>
             <HerokuSVG width="3em" height="3em" />
+            <span> Heroku</span>
           </div>
           <div className={styles.ring}>
             <DockerSVG width="3em" height="3em" />
+            <span> Docker</span>
           </div>
           {/* <div className={styles.ring}>
             <NPMSVG width="3em" height="3em" />
           </div> */}
           <div className={styles.ring}>
             <PhotoshopSVG width="3em" height="3em" />
+            <span> Adobe Photoshop</span>
           </div>
           <div className={styles.ring}>
             <AfterEffectSVG width="3em" height="3em" />
+            <span> Adobe After Effect</span>
           </div>
           <div className={styles.ring}>
             <PremiereProSVG width="3em" height="3em" />
+            <span>Adobe Premire Pro</span>
           </div>
           <div className={styles.ring}>
             <PythonSVG width="3em" height="3em" />
+            <span> Python</span>
           </div>
           {/* <div className={styles.ring}>
             <HTMLSVG width="3em" height="3em" />
           </div> */}
           <div className={styles.ring}>
             <GCESVG width="3em" height="3em" />
+            <span> Google Compute Engine</span>
           </div>
           {/* <div className={styles.ring}>
             <GCSSVG width="3em" height="3em" />
           </div> */}
           <div className={styles.ring}>
             <GAESVG width="3em" height="3em" />
+            <span> Google App Engine</span>
           </div>
           {/* <div className={styles.ring}>
             <GCBSVG width="3em" height="3em" />
