@@ -305,7 +305,7 @@ function Projects({ projectsRef }) {
             <div className={styles.links}>
               <div className={styles.icons}>
                 <a
-                  href="https://mrpriyansh.github.io/mr_priyansh/"
+                  href="https://mrpriyansh.github.io/portfolio/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
