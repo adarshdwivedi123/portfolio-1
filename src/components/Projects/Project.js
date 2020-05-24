@@ -91,12 +91,12 @@ function Projects({ projectsRef }) {
                   <GitSVG width="1.5em" height="1.5em" />
                 </a>
               </div>
-              <p className={styles.info}> *Currently Working</p>
+              <p className={styles.info}> *Currently Working On</p>
             </div>
             <img className={styles.image} src={abviiitmalumniportal} alt="project" />
             <p className={styles.project_title}>ABV-IIITM Alumni Portal</p>
             <p className={styles.project_details}>
-              It is a MERN Stack web application on which I am currently working on. It will try to
+              It is a MERN Stack web application on which I am currently working. It will try to
               build an alumni network of my institute more efficiently.
             </p>
           </div>
