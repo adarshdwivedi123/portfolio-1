@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.734e6448.chunk.css",
-    "main.js": "/portfolio/static/js/main.ad65d82b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ad65d82b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.2b74cc5e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b74cc5e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.cb53411b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.cb53411b.js.map",
     "static/css/2.9331f0d3.chunk.css": "/portfolio/static/css/2.9331f0d3.chunk.css",
     "static/js/2.b95fd5c4.chunk.js": "/portfolio/static/js/2.b95fd5c4.chunk.js",
     "static/js/2.b95fd5c4.chunk.js.map": "/portfolio/static/js/2.b95fd5c4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.24648dd081a84211ba83b034a6d47507.js": "/portfolio/precache-manifest.24648dd081a84211ba83b034a6d47507.js",
+    "precache-manifest.61d30536b874d192fe7701c2e57dec56.js": "/portfolio/precache-manifest.61d30536b874d192fe7701c2e57dec56.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.9331f0d3.chunk.css.map": "/portfolio/static/css/2.9331f0d3.chunk.css.map",
     "static/css/main.734e6448.chunk.css.map": "/portfolio/static/css/main.734e6448.chunk.css.map",
@@ -17,7 +17,7 @@
     "static/media/HE_logo.f52094e6.svg": "/portfolio/static/media/HE_logo.f52094e6.svg",
     "static/media/abviiitmalumniportal.png": "/portfolio/static/media/abviiitmalumniportal.8dac88af.png",
     "static/media/afterEffect.ff0bfc99.svg": "/portfolio/static/media/afterEffect.ff0bfc99.svg",
-    "static/media/bggenerator.png": "/portfolio/static/media/bggenerator.514798fd.png",
+    "static/media/bggenerator.png": "/portfolio/static/media/bggenerator.f1e4eff5.png",
     "static/media/c++.c1048269.svg": "/portfolio/static/media/c++.c1048269.svg",
     "static/media/c.0253bb2f.svg": "/portfolio/static/media/c.0253bb2f.svg",
     "static/media/call.cfd47545.svg": "/portfolio/static/media/call.cfd47545.svg",
@@ -67,6 +67,6 @@
     "static/css/2.9331f0d3.chunk.css",
     "static/js/2.b95fd5c4.chunk.js",
     "static/css/main.734e6448.chunk.css",
-    "static/js/main.ad65d82b.chunk.js"
+    "static/js/main.2b74cc5e.chunk.js"
   ]
 }

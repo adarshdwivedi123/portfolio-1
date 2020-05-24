@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb5b0d7c5b463132efcc7a730d8be339",
+    "revision": "1cc4d0725d4e5a6db6cf1f855b1c1169",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.9331f0d3.chunk.css"
   },
   {
-    "revision": "a86d062e2298c7fd3dd6",
+    "revision": "3eda052d99c0d5c681cf",
     "url": "/portfolio/static/css/main.734e6448.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.b95fd5c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a86d062e2298c7fd3dd6",
-    "url": "/portfolio/static/js/main.ad65d82b.chunk.js"
+    "revision": "3eda052d99c0d5c681cf",
+    "url": "/portfolio/static/js/main.2b74cc5e.chunk.js"
   },
   {
     "revision": "1f2e4fbd853f2fd7f5d9",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/afterEffect.ff0bfc99.svg"
   },
   {
-    "revision": "514798fd2670ba1e7f939eeaa009ac90",
-    "url": "/portfolio/static/media/bggenerator.514798fd.png"
+    "revision": "f1e4eff5cc8f9235abddef36c70e4f76",
+    "url": "/portfolio/static/media/bggenerator.f1e4eff5.png"
   },
   {
     "revision": "c1048269263dedd739efc810b15aa414",
