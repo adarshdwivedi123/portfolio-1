@@ -8,14 +8,14 @@ import { ReactComponent as GitSVG } from '../../assets/icons/git.svg';
 import { ReactComponent as WebsiteSVG } from '../../assets/icons/website.svg';
 import abviiitmalumniportal from '../../assets/images/abviiitmalumniportal.png';
 import triggerAlert from '../getAlert/getAlert';
-import qpgs from '../../assets/images/qpgs.png';
+// import qpgs from '../../assets/images/qpgs.png';
 import imageModerator from '../../assets/images/imagemoderator.png';
 import robofriends from '../../assets/images/robofriends.png';
 import bgGenerator from '../../assets/images/bggenerator.png';
 import seedbox from '../../assets/images/seedbox.png';
 import icpc from '../../assets/images/icpcKanpur.png';
 import linkedinapi from '../../assets/images/linkedin.png';
-import snackdown from '../../assets/images/snackdown.jpeg';
+// import snackdown from '../../assets/images/snackdown.jpeg';
 import portfolio from '../../assets/images/portfolio.png';
 
 function Projects({ projectsRef }) {
@@ -170,10 +170,10 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={seedbox} alt="project" />
             <p className={styles.project_title}>SeedBox</p>
             <p className={styles.project_details}>
-              A seedbox is a high-bandwidth remote server for uploading and downloading of digital
+              A seedbox is a high-bandwidth remote server for uploading and downloading digital
               files from a P2P network. The web application is based on Node.js that uses Flood to
               communicates with rTorrent instances and serves a decent web UI for administration.
-              The downloads are stored in my Google drive.
+              The downloads are stored in my Google drive using bash scripting.
               <i> User Id, and the password are "demo" (without quotes).</i>
             </p>
           </div>

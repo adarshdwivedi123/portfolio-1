@@ -17,7 +17,7 @@ function App() {
   const contactRef = useRef();
   // const resumeRef = useRef();
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar
         homeRef={homeRef}
         aboutRef={aboutRef}
