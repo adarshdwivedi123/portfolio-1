@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: 'Open Sans' sans-serif;
     padding: max(10px, 5vh) 7%;
     top:60px;
     position: relative
