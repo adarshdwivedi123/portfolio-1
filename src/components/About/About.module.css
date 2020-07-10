@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans' sans-serif;
     padding: max(10px, 5vh) 7%;
     top:60px;
     position: relative;
@@ -16,6 +17,8 @@
     padding: 20px 20px;
     border-radius: 20px;
     box-shadow:  5px 5px 10px #000000;
+    -moz-box-shadow:  5px 5px 10px #000000;;
+    -webkit-box-shadow: 5px 5px 10px #000000;;
 }
 
 .info{
@@ -27,9 +30,12 @@
 
 .photo{
     width: 10em;
-    height: 10em;   
+    height: auto;
+    /* height: 10em;    */
     border-radius: 5px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .details{

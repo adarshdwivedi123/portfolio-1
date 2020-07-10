@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../../assets/images/testimonial-2.jpg';
+import photo from '../../assets/images/Priyansh.jpg';
 import styles from './About.module.css';
 import { ReactComponent as CallSVG } from '../../assets/icons/call.svg';
 import { ReactComponent as EmailSVG } from '../../assets/icons/email.svg';
