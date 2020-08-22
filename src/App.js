@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import ReactGA from 'react-ga';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -15,7 +16,10 @@ function App() {
   const projectsRef = useRef();
   const profilesRef = useRef();
   const contactRef = useRef();
+  ReactGA.initialize('UA-167458794-2');
+  ReactGA.pageview('/');
   // const resumeRef = useRef();
+ 
   return (
     <div className="App">
       <Navbar
