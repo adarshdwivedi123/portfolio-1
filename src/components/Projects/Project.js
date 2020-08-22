@@ -7,6 +7,7 @@ import facereco from '../../assets/images/facereco.png';
 import { ReactComponent as GitSVG } from '../../assets/icons/git.svg';
 import { ReactComponent as WebsiteSVG } from '../../assets/icons/website.svg';
 import abviiitmalumniportal from '../../assets/images/abviiitmalumniportal.png';
+import synconlinevideoplayer from '../../assets/images/sync_video_player.png';
 import triggerAlert from '../getAlert/getAlert';
 // import qpgs from '../../assets/images/qpgs.png';
 import imageModerator from '../../assets/images/imagemoderator.png';
@@ -95,8 +96,37 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={abviiitmalumniportal} alt="project" />
             <p className={styles.project_title}>ABV-IIITM Alumni Portal</p>
             <p className={styles.project_details}>
-              It is a MERN Stack web application on which I am currently working. It will try to
-              build an alumni network of my institute more efficiently.
+              A MERN Stack web application that will help the institute to build an Alumni network
+              more effectively. Users can share their college memories, job offers and can sync
+              their profiles from Linkedin.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.links}>
+              <div className={styles.icons}>
+                <a
+                  href="https://dev-project-frontend.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <WebsiteSVG width="1.5em" height="1.5em" />
+                </a>
+                <a
+                  href="https://github.com/mrpriyansh/dev-project-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitSVG width="1.5em" height="1.5em" />
+                </a>
+              </div>
+              <p className={styles.info}> *Currently Working On</p>
+            </div>
+            <img className={styles.image} src={synconlinevideoplayer} alt="project" />
+            <p className={styles.project_title}>Synchronized Online Video Player</p>
+            <p className={styles.project_details}>
+              A web application to enjoy synchronized online videos with friends (An alternative for
+              Cinema Halls in LockDown Period) using <strong> socket.io </strong>. It also provides
+              a realtime chat room facility to gossip with friends and share emotion using emojis.
             </p>
           </div>
           {/* <div className={styles.card}>
@@ -146,7 +176,7 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={imageModerator} alt="project" />
             <p className={styles.project_title}>Image Moderator App</p>
             <p className={styles.project_details}>
-              Image Moderator is a Web Service which returns probability scores on the likelihood
+              Image Moderator is a Web Service that returns probability scores on the likelihood
               image contains concepts such as explicit, suggestive, gore, drug, and safe. It is a
               fully nodejs web service that uses handlebars to build semantic templates in HTML.
             </p>
@@ -172,8 +202,8 @@ function Projects({ projectsRef }) {
             <p className={styles.project_details}>
               A seedbox is a high-bandwidth remote server for uploading and downloading digital
               files from a P2P network. The web application is based on Node.js that uses Flood to
-              communicates with rTorrent instances and serves a decent web UI for administration.
-              The downloads are stored in my Google drive using bash scripting.
+              communicate with rTorrent instances and serves a decent web UI for administration. The
+              downloads are stored in my Google drive using bash scripting.
               <i> User Id, and the password are "demo" (without quotes).</i>
             </p>
           </div>
@@ -323,7 +353,8 @@ function Projects({ projectsRef }) {
             <img className={styles.image} src={portfolio} alt="project" />
             <p className={styles.project_title}>Portfolio</p>
             <p className={styles.project_details}>
-              A web site built using React.Js showcasing my skills and projects, hosted on Github Pages.
+              A web site built using React.Js showcasing my skills and projects, hosted on Github
+              Pages.
             </p>
           </div>
         </div>
