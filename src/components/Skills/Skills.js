@@ -24,6 +24,7 @@ import { ReactComponent as ReactjsSVG } from '../../assets/icons/reactjs.svg';
 import { ReactComponent as VimSVG } from '../../assets/icons/vim.svg';
 import { ReactComponent as GAESVG } from '../../assets/icons/gae.svg';
 import { ReactComponent as GCBSVG } from '../../assets/icons/cloud_build.svg';
+import { ReactComponent as SOCKETIOSVG } from '../../assets/icons/socket-io.svg';
 
 function Skills({ skillsRef }) {
   return (
@@ -32,6 +33,16 @@ function Skills({ skillsRef }) {
         <div className={styles.header}>Skills </div>
         <hr className={styles.line} />
         <div className={styles.content}>
+
+
+         <div className={styles.ring}>
+            <CppSVG width="3em" height="3em" />
+            <span> C++</span>
+          </div>
+          <div className={styles.ring}>
+            <CSVG width="3em" height="3em" />
+            <span> C</span>
+          </div>
           <div className={styles.ring}>
             <ReactjsSVG width="3em" height="3em" />
             <span> ReactJs</span>
@@ -57,20 +68,16 @@ function Skills({ skillsRef }) {
             <span> HTML</span>
           </div>
           <div className={styles.ring}>
+            <SOCKETIOSVG width="3em" height="3em" />
+            <span> Socket.io</span>
+          </div>
+          <div className={styles.ring}>
             <CSSSVG width="3em" height="3em" />
             <span> CSS</span>
           </div>
           <div className={styles.ring}>
             <PostgresqlSVG width="3em" height="3em" />
             <span> PostregSQL</span>
-          </div>
-          <div className={styles.ring}>
-            <CppSVG width="3em" height="3em" />
-            <span> C++</span>
-          </div>
-          <div className={styles.ring}>
-            <CSVG width="3em" height="3em" />
-            <span> C</span>
           </div>
           <div className={styles.ring}>
             <VimSVG width="3em" height="3em" />
