@@ -20,9 +20,10 @@ function Navbar({ homeRef, aboutRef, skillsRef, projectsRef, profilesRef, contac
     setOpen(false);
     ReactGA.event({
       category: 'Scroll',
-      action: `Scroll to ${curRef}`,
+      action: `Scroll to ${curRef.current.className}`,
       transport: 'beacon',
     });
+
     // skillRef.current.scrollTop(50);
   };
   useEffect(() => {

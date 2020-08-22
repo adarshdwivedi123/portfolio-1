@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import styles from './Skills.module.css';
 import { ReactComponent as AfterEffectSVG } from '../../assets/icons/afterEffect.svg';
 import { ReactComponent as CSVG } from '../../assets/icons/c.svg';
@@ -27,6 +28,28 @@ import { ReactComponent as GCBSVG } from '../../assets/icons/cloud_build.svg';
 import { ReactComponent as SOCKETIOSVG } from '../../assets/icons/socket-io.svg';
 
 function Skills({ skillsRef }) {
+  useEffect(() => {
+    const opts = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0,
+    };
+    const callback = list => {
+      list.forEach(entry => {
+        if (entry.isIntersecting) {
+          ReactGA.event({
+            category: 'Scroll',
+            action: 'Scrolled to heading 2',
+            value: entry.intersectionRatio,
+          });
+        }
+      });
+    };
+    const observerScroll = new IntersectionObserver(callback, opts);
+
+    observerScroll.observe(skillsRef.current);
+  }, []);
+
   return (
     <div className={styles.skills} ref={skillsRef}>
       <div className={styles.container}>
