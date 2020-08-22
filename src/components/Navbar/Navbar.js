@@ -3,6 +3,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable no-nested-ternary */
 import React, { useState, useEffect } from 'react';
+import ReactGA from 'react-ga';
 import styles from './Navbar.module.css';
 
 function Navbar({ homeRef, aboutRef, skillsRef, projectsRef, profilesRef, contactRef }) {
@@ -17,6 +18,11 @@ function Navbar({ homeRef, aboutRef, skillsRef, projectsRef, profilesRef, contac
     // console.log(skillRef);
     window.scrollTo(0, curRef.current.offsetTop - 60);
     setOpen(false);
+    ReactGA.event({
+      category: 'Scroll',
+      action: `Scroll to ${curRef}`,
+      transport: 'beacon',
+    });
     // skillRef.current.scrollTop(50);
   };
   useEffect(() => {

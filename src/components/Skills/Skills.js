@@ -33,9 +33,7 @@ function Skills({ skillsRef }) {
         <div className={styles.header}>Skills </div>
         <hr className={styles.line} />
         <div className={styles.content}>
-
-
-         <div className={styles.ring}>
+          <div className={styles.ring}>
             <CppSVG width="3em" height="3em" />
             <span> C++</span>
           </div>
